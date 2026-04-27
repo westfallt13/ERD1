@@ -1,0 +1,17 @@
+How are entities defined and represented in the Entity Relationship Diagram (ERD)?
+
+ An entity is a definable thing or concept within your domain that can have data stored inside of it. It is typically a noun, such as a physical object, person, event, or concept. In Chen notation diagrams, entities are represented by rectangles containing the name of the entity. In Crow's Foot notation, they are represented by tables/boxes with the entity name at the top.
+
+How are attributes defined and associated with entities?
+
+ Attributes are the specific details, properties, or characteristics that describe an entity. One attribute is typically designated as the Primary Key. In traditional notation, attributes are represented by ovals connected to their parent entity with a line, and key attributes usually have their names underlined. In modern table-based diagrams, attributes are simply listed in rows inside the entity's box.
+
+What is a relationship in the context, how do you represent them, and how does it connect entities?
+
+ A relationship describes how two or more entities interact or are associated with one another. It represents the "verb" connecting the "nouns" (entities). In traditional diagrams, relationships are represented by diamonds with a descriptive verb written inside, connected by lines to the associated entities. In Crow's Foot notation, they are represented simply by lines connecting the entities, with symbols at the ends of the lines denoting the cardinality.
+
+List and describe the different types of Relationships found (Cardinality).
+
+1:1 (One-to-One): An instance of Entity A is associated with exactly one instance of Entity B, and vice versa.
+1:N (One-to-Many): An instance of Entity A can be associated with many instances of Entity B, but an instance of Entity B is associated with exactly one instance of Entity A.
+N:M (Many-to-Many): An instance of Entity A can be associated with many instances of Entity B, and an instance of Entity B can be associated with many instances of Entity A.
